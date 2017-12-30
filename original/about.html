@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="css/dh_styles.css">
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/shadowbox.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+<title>About Design Harmony Interior Design | Chicago North and Northwest Suburbs</title>
+<meta name="description" content="Design Harmony specializes in bringing harmony to home design by integrating the elements of interior design with the elements of your real life." />
+</head>
+
+<body>
+
+<div id="floater"></div>
+<div id="wrapper">
+	<p class="tagline">Inviting interiors for living</p>
+	<div id="container">    
+    	<div id="sidenav">
+        	<a href="index.html"><img src="images/dh_logo.png" alt="design harmony logo" class="main-logo" /></a>
+            <ul class="nav">
+            	<li><a href="index.html">HOME<br><img src="images/nav_line.png" alt="" ></a></li>
+            	<li><a href="about.html">ABOUT<br><img src="images/nav_line.png" alt="" ></a></li>
+                <li><a href="portfolio.html">PORTFOLIO<br><img src="images/nav_line.png" alt="" ></a></li>
+                <li><a href="philosophy.html">PHILOSOPHY<br><img src="images/nav_line.png" alt="" ></a></li>               
+                <li><a href="contact.php">CONTACT<br><img src="images/nav_line.png" alt="" ></a></li>
+            </ul>
+        </div><!--close sidenav-->
+        <div id="main">
+        	<img src="images/dorothy-headshot.jpg" alt="Dorothy Zalewski headshot" class="headshot" />
+            <img src="images/meet-dorothy.png" alt="Meet Dorothy" class="main-heading"/>
+            <div class="main-text">
+            	<p>Dorothy Zalewski is a designer who is passionate about bringing harmony to home design.</p>
+				<p>She holds a diploma from the Illinois Institute of Art&mdash;Schaumburg, where she focused on residential planning. In order to stay on the cutting-edge of interior design, Dorothy continues to educate herself through classes and seminars. In her previous life, she obtained a BS in Mathematics from the University of Illinois which led to a career in software engineering and computer programming. She also received an Advanced Studies Certificate from Moody Bible Institute.</p>
+				<p>Dorothy’s interest in interior design began when her three boys were little. At home with her children, she began to notice and re-imagine her own blank walls. It was enough to pique her interest in design, and she’s been studying the principles of beautiful, practical living spaces ever since.</p>
+				<p>After a couple of additions and remodels in her own house (which not only had to look good, but also function well to satisify the engineer in her as well the engineer that she married), she decided to go into interior design.</p>
+				<p>Though moving from software to interior design is not the most traditional path, Dorothy learned how deeply connected the two actually are. Both are about finding the best problem-solving techniques and the cleanest solutions. And combining the two allowed her to integrate her left-brain and right-brain, creativity and workability, passion and wisdom.</p>
+				<p>When she is not designing, Dorothy is program and operations manager to three active teenage boys and husband. She enjoys food (seafood in particular), travel (loves to stay at bed and breakfasts), volleyball, movies and the theatre.</p>
+            </div>
+        </div><!--close main-->
+        <div id="rightside" class="edison">
+        </div><!--close rightside-->
+        <p class="copyright">&copy;2013 Design Harmony</p>
+    </div><!--close container-->
+</div>
+<!--close wrapper-->
+
+<!--custom scrollbar code-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="includes/scripts/jquery.mousewheel.min.js"></script>
+<script src="includes/scripts/jquery.mCustomScrollbar.js"></script>
+
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".main-text").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+
+</body>
+</html>
